@@ -11,13 +11,14 @@ header {
     text-align: center;
 }
 nav {
-    background: #555;
+    background:  #999;
     color: white;
     text-align: center;
     padding: 0.5em 0;
 }
 main {
     padding: 20px;
+    margin-bottom: 60px; /* Added to avoid overlap with footer */
 }
 footer {
     background-color: #333;
