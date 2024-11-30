@@ -1,5 +1,12 @@
 type,name,url
-jazz-albums,Kind of Blue,wikipedia.org
-novels,The Dispossessed,https://wikipedia.org
-lists,Jazz Albums, top/jazz-albums
-lists,Novels, top/novels
+
+lists,Jazz Albums, list/jazz-albums
+lists,Novels, list/novels
+
+jazz-albums,Kind of Blue,https://en.wikipedia.org/wiki/Kind_of_Blue
+jazz-albums,Sketches of Spain,https://en.wikipedia.org/wiki/Sketches_of_Spain
+jazz-albums,Back to Back,https://en.wikipedia.org/wiki/Back_to_Back:_Duke_Ellington_and_Johnny_Hodges_Play_the_Blues
+
+novels,The Dispossessed,https://en.wikipedia.org/wiki/The_Dispossessed
+novels,Slaughterhouse-Five,https://en.wikipedia.org/wiki/Slaughterhouse-Five
+
