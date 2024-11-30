@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Default Title{% endblock %}</title>
+    {% block styles %}
+        <!-- Base styles or external style sheets -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    {% endblock %}
+    <script>
+        function openAllLinksHandler() {
+            function openAllLinks () {
+            var links = document.querySelectorAll('div li a');
+            for (var i = 0; i < links.length; i++) {
+                window.open(links[i].href, '_blank');
+            }
+            };
+            openAllLinks();   
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class='main'>
+    <!-- Main Content Block -->
+    {% block content %}{% endblock %}
+    </div>
+    
+    <footer>
+        <!-- Footer Content -->
+    </footer>
+</body>
+</html>
