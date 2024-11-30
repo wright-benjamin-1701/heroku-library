@@ -7,17 +7,7 @@
         <!-- Base styles or external style sheets -->
         <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     {% endblock %}
-    <script>
-        function openAllLinksHandler() {
-            function openAllLinks () {
-            var links = document.querySelectorAll('div li a');
-            for (var i = 0; i < links.length; i++) {
-                window.open(links[i].href, '_blank');
-            }
-            };
-            openAllLinks();   
-        }
-    </script>
+    
 </head>
 <body>
     <header>
