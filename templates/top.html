@@ -1,31 +1,20 @@
-{% extends 'base.html' %}
-
-{% block title %}Home Page{% endblock %}
-
-{% block styles %}
-    {{ super() }} <!-- This will include the styles from the base template -->
-    <style>
-        /* Additional styles for the home page */
-    </style>
-{% endblock %}
-
-{% block content %}
+{% extends 'base.html' %} {% block title %}Home Page{% endblock %} {% block
+styles %} {{ super() }}
+<!-- This will include the styles from the base template -->
+<style>
+  /* Additional styles for the home page */
+</style>
+{% endblock %} {% block content %}
 
 <h1>List of favorite {{items['type'].iloc[0].replace('-',' ')}}</h1>
 <div>
-<ul>
+  <ul>
     {% for _ ,row in items.iterrows() %}
     <li>
-        <a href= "{{row['url']}}">{{ row['name'] }}</a>
+      <a href="{{row['url']}}">{{ row['name'] }}</a>
     </li>
     {% endfor %}
-</ul>
+  </ul>
 </div>
 
-
-
 {% endblock %}
-
-
-   
-

@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>{% block title %}Default Title{% endblock %}</title>
     {% block styles %}
-        <!-- Base styles or external style sheets -->
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <!-- Base styles or external style sheets -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/base.css') }}"
+    />
     {% endblock %}
-    
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>A Website of Fun and Helpful Lists</h1>
-        <!-- Navigation Bar -->
-        <nav>
-            <ul>
-                <li><a href="{{ url_for('home') }}">Home</a></li>
-            </ul>
-        </nav>
+      <h1>A Website of Fun and Helpful Lists</h1>
+      <!-- Navigation Bar -->
+      <nav>
+        <ul>
+          <li><a href="{{ url_for('home') }}">Home</a></li>
+        </ul>
+      </nav>
     </header>
-    
-    <div class='main'>
-    <!-- Main Content Block -->
-    {% block content %}{% endblock %}
+
+    <div class="main">
+      <!-- Main Content Block -->
+      {% block content %}{% endblock %}
     </div>
-    
+
     <footer>
-        <!-- Footer Content -->
+      <!-- Footer Content -->
     </footer>
-</body>
+  </body>
 </html>
