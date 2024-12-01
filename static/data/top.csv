@@ -1,12 +1,28 @@
 type,name,url
 
-lists,Jazz Albums, list/jazz-albums
+lists,Jazz Albums,list/jazz-albums
 lists,Novels, list/novels
+lists,Songs,list/songs
 
-jazz-albums,Kind of Blue,https://en.wikipedia.org/wiki/Kind_of_Blue
-jazz-albums,Sketches of Spain,https://en.wikipedia.org/wiki/Sketches_of_Spain
-jazz-albums,Back to Back,https://en.wikipedia.org/wiki/Back_to_Back:_Duke_Ellington_and_Johnny_Hodges_Play_the_Blues
+jazz-albums,Kind of Blue,https://www.youtube.com/watch?v=vDqULFUg6CY
+jazz-albums,Sketches of Spain,https://www.youtube.com/watch?v=38zRx9AYDHQ
+jazz-albums,Back to Back,https://www.youtube.com/watch?v=aysOUiF8R_4&list=PLKjjIa7cwTkKDtcMSoJ5F_ftFZpVnMt3k
+jazz-albums,Gemini,https://www.youtube.com/watch?v=NvzOKIhny-s&list=PLAym87g-oy7r_BTkaAnCo7ioToIf7q6Ri
+jazz-albums,Charlie Parker with Strings,https://www.youtube.com/watch?v=iixDzXO3V6A&list=PLq93_zeR7pCiYNY0TGHE1e6_1rsrNK7wV&index=1,
+jazz-albums,Birth of the Cool,https://www.youtube.com/watch?v=4WjU4eXYWg4&list=PLED9CF5CAEE7AD60A
 
 novels,The Dispossessed,https://en.wikipedia.org/wiki/The_Dispossessed
 novels,Slaughterhouse-Five,https://en.wikipedia.org/wiki/Slaughterhouse-Five
+novels,The Unconsoled,https://en.wikipedia.org/wiki/The_Unconsoled
+novels,War and Peace,https://www.gutenberg.org/files/2600/2600-h/2600-h.htm
+novels,Siddhartha,https://www.gutenberg.org/cache/epub/2500/pg2500-images.html
 
+songs,Pull Closer to Me,https://www.youtube.com/watch?v=JRiY9nge_VE
+songs,Time Won't Take Our Times Away,https://www.youtube.com/watch?v=n4o3zlP_x7M
+songs,Party Before Country,https://www.youtube.com/watch?v=tliIJLqWYVA
+songs,A Lovely View,https://www.youtube.com/watch?v=Vg-JGK29JXw
+songs,Dieses Jahr,https://www.youtube.com/watch?v=y3pFAlKHmXo
+songs,Steady,https://www.youtube.com/watch?v=xE8odDBpEc8
+songs,Jump the Border,https://www.youtube.com/watch?v=KJjEVXX5mWo
+songs,The International,https://www.youtube.com/watch?v=yIvGOZckTPc&list=PLTst8er1hs33ISTz_aEG-zfKWGUFv0at-&index=2
+songs,Du bist ganz schön bedient,https://www.youtube.com/watch?v=rMxLjVbI7E8
