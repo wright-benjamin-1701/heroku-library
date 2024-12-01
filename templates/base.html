@@ -24,17 +24,15 @@
 
     <div class="main">
       <!-- Main Content Block -->
+      <div>{% block content %}{% endblock %}</div>
       <div>
-      {% block content %}{% endblock %}
-      </div>
-      <div>
-      <h2>Deploying a Flask App on Heroku</h2>
-      <p>See my post about how this website was created!</p>
-      <iframe
-        src="https://benwright.blog/deployment-ready-flask-app/"
-        height="750"
-        width="950"
-      ></iframe>
+        <h2>Deploying a Flask App on Heroku</h2>
+        <p>See my post about how this website was created!</p>
+        <iframe
+          src="https://benwright.blog/deployment-ready-flask-app/"
+          height="600"
+          width="950"
+        ></iframe>
       </div>
     </div>
 
