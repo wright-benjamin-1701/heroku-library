@@ -3,7 +3,7 @@ type,name,url
 lists,Jazz Albums,list/jazz-albums
 lists,Novels, list/novels
 lists,Songs,list/songs
-lists,Software Formus,list/software-forums
+lists,Software Forums,list/software-forums
 
 jazz-albums,Kind of Blue,https://www.youtube.com/watch?v=vDqULFUg6CY
 jazz-albums,Sketches of Spain,https://www.youtube.com/watch?v=38zRx9AYDHQ
