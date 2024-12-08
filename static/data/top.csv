@@ -3,6 +3,7 @@ type,name,url
 lists,Jazz Albums,list/jazz-albums
 lists,Novels, list/novels
 lists,Songs,list/songs
+lists,Software Formus,list/software-forums
 
 jazz-albums,Kind of Blue,https://www.youtube.com/watch?v=vDqULFUg6CY
 jazz-albums,Sketches of Spain,https://www.youtube.com/watch?v=38zRx9AYDHQ
@@ -27,3 +28,7 @@ songs,Jump the Border,https://www.youtube.com/watch?v=KJjEVXX5mWo
 songs,The International,https://www.youtube.com/watch?v=yIvGOZckTPc&list=PLTst8er1hs33ISTz_aEG-zfKWGUFv0at-&index=2
 songs,Du bist ganz schön bedient,https://www.youtube.com/watch?v=rMxLjVbI7E8
 songs,A Amigo J.V.,https://www.youtube.com/watch?v=0hZLwddkKo4s
+
+software-forums,Hacker News,https://news.ycombinator.com
+software-forums,DEV Community,https://dev.to
+software-forums,hackertab.dev,https://now.hackertab.dev
